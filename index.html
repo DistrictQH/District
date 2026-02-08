@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>District Label</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="home">
+      <nav class="navbar container">
+        <a class="logo" href="#home">DISTRICT</a>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#artists">Artists</a></li>
+          <li><a href="#credits">Credits</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <section class="hero container">
+        <p class="eyebrow">Independent Music Label</p>
+        <h1>District Shapes the Sound of Tomorrow.</h1>
+        <p class="hero-copy">
+          We are a modern label blending dark aesthetics with futuristic emotion.
+          Discover new artists, deep stories, and the credits behind every release.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#artists">Explore Artists</a>
+          <a class="btn btn-secondary" href="#credits">View Credits</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section container fade-in-section">
+        <h2>About District</h2>
+        <p>
+          District is built for creators who want bold visuals and emotional depth.
+          Our mission is simple: elevate authentic voices and build timeless
+          records with a clean, modern approach.
+        </p>
+      </section>
+
+      <section id="artists" class="section container fade-in-section">
+        <h2>Featured Artists</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Nova Vale</h3>
+            <p>Dark pop textures with cinematic vocals.</p>
+          </article>
+          <article class="card">
+            <h3>Neon District</h3>
+            <p>Electronic rhythms designed for late-night city drives.</p>
+          </article>
+          <article class="card">
+            <h3>Silk Error</h3>
+            <p>Minimal R&B with experimental ambient layers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="credits" class="section container fade-in-section">
+        <h2>Credits</h2>
+        <ul class="credits-list">
+          <li><strong>Executive Production:</strong> District Core Team</li>
+          <li><strong>Creative Direction:</strong> Alina Frost</li>
+          <li><strong>Mix & Master:</strong> Zero Room Studios</li>
+          <li><strong>Visual Design:</strong> District Creative Lab</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section container fade-in-section">
+        <h2>Contact</h2>
+        <p>
+          Ready to collaborate with District?
+          <a href="mailto:hello@districtlabel.com">hello@districtlabel.com</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> District Label. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
